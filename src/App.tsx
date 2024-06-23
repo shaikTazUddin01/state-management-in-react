@@ -1,10 +1,12 @@
-import UserInFoWithState from "./components/UserInFoWithState";
+import UserFormWithReduce from "./components/UserFormWithReduce";
+// import UserInFoWithState from "./components/UserInFoWithState";
 
 
 const App = () => {
   return (
     <div>
-    <UserInFoWithState></UserInFoWithState>
+      <UserFormWithReduce></UserFormWithReduce>
+    {/* <UserInFoWithState></UserInFoWithState> */}
     </div>
   );
 };
