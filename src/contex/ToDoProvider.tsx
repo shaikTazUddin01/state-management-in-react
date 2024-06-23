@@ -22,6 +22,8 @@ const reducer = (currentState: TToDo[], action: TAction) => {
     case "addTodo":
       return [...currentState, action.payload];
 
+    case "todoId":
+      return console.log(action.payload);
     default:
       return currentState;
   }
