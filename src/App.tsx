@@ -1,13 +1,12 @@
-import CounterWithClass from "./components/CounterWithComponent";
-import CounterWithComponentfunction from "./components/CounterWithComponentfunction";
+import UserInFoWithState from "./components/UserInFoWithState";
 
-function App() {
+
+const App = () => {
   return (
-    <>
-   {/* <CounterWithClass></CounterWithClass> */}
-  <CounterWithComponentfunction/>
-    </>
+    <div>
+    <UserInFoWithState></UserInFoWithState>
+    </div>
   );
-}
+};
 
 export default App;
