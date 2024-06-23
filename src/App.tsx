@@ -1,13 +1,17 @@
-import UserFormWithReduce from "./components/UserFormWithReduce";
+import ToDoForm from "./components/ToDoForm";
+// import UserFormWithReduce from "./components/UserFormWithReduce";
+import ToDoProvider from "./contex/ToDoProvider";
 // import UserInFoWithState from "./components/UserInFoWithState";
-
 
 const App = () => {
   return (
-    <div>
-      <UserFormWithReduce></UserFormWithReduce>
-    {/* <UserInFoWithState></UserInFoWithState> */}
-    </div>
+    <ToDoProvider>
+      <div>
+        {/* <UserFormWithReduce></UserFormWithReduce> */}
+        {/* <UserInFoWithState></UserInFoWithState> */}
+        <ToDoForm></ToDoForm>
+      </div>
+    </ToDoProvider>
   );
 };
 
